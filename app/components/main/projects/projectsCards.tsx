@@ -3,7 +3,7 @@ import { data } from "./data/dataProjects";
 import Link from "next/link";
 export default function ProjectsCardsContainer(): JSX.Element {
     return (
-        <section id="projects">
+        <section id="projects-card">
             <div className="our-exp-title">
                 <h4>Наша экспертиза — в продакшене. <span id="our-mission">Наша миссия — делиться ею.</span></h4>
             </div>

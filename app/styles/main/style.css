@@ -280,6 +280,8 @@ body {
   .menu-block {
     flex-direction: column;
     padding-top: 5rem;
+    justify-content: center;
+    row-gap: 40px;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -322,10 +324,15 @@ body {
   padding-top: 3rem;
   width: 50%;
 }
-.points-menu ol a {
+@media screen and (max-width: 760px) {
+  .points-menu {
+    padding-top: 2rem;
+  }
+}
+.points-menu li a {
   position: relative;
 }
-.points-menu ol a::before {
+.points-menu li a::before {
   content: "→";
   position: absolute;
   font-size: 3rem;
@@ -335,7 +342,7 @@ body {
   opacity: 0;
   transition: all 0.4s ease-in;
 }
-.points-menu ol a:hover::before {
+.points-menu li a:hover::before {
   opacity: 1;
   transform: translateX(0);
 }
@@ -349,6 +356,11 @@ body {
 @media screen and (max-width: 1070px) {
   .points-menu ol a li {
     font-size: 3rem;
+  }
+}
+@media screen and (max-width: 760px) {
+  .points-menu ol a li {
+    font-size: 2rem;
   }
 }
 
@@ -1034,102 +1046,102 @@ body {
   opacity: 0.3;
 }
 #footer .particle:nth-child(1) {
-  top: 97%;
-  left: 76%;
-  animation: float 29s infinite -5s;
+  top: 47%;
+  left: 88%;
+  animation: float 29s infinite -1s;
 }
 #footer .particle:nth-child(2) {
-  top: 9%;
-  left: 3%;
-  animation: float 30s infinite -2s;
+  top: 3%;
+  left: 85%;
+  animation: float 17s infinite -5s;
 }
 #footer .particle:nth-child(3) {
-  top: 98%;
-  left: 17%;
-  animation: float 16s infinite -10s;
+  top: 18%;
+  left: 68%;
+  animation: float 23s infinite -6s;
 }
 #footer .particle:nth-child(4) {
-  top: 6%;
-  left: 68%;
-  animation: float 11s infinite -5s;
+  top: 90%;
+  left: 3%;
+  animation: float 17s infinite -1s;
 }
 #footer .particle:nth-child(5) {
-  top: 43%;
-  left: 56%;
-  animation: float 16s infinite -10s;
+  top: 88%;
+  left: 79%;
+  animation: float 20s infinite -7s;
 }
 #footer .particle:nth-child(6) {
-  top: 84%;
-  left: 84%;
-  animation: float 22s infinite -7s;
+  top: 7%;
+  left: 81%;
+  animation: float 28s infinite -6s;
 }
 #footer .particle:nth-child(7) {
-  top: 87%;
-  left: 96%;
-  animation: float 29s infinite -2s;
+  top: 52%;
+  left: 41%;
+  animation: float 13s infinite -9s;
 }
 #footer .particle:nth-child(8) {
-  top: 81%;
-  left: 95%;
-  animation: float 14s infinite -2s;
+  top: 87%;
+  left: 7%;
+  animation: float 13s infinite -9s;
 }
 #footer .particle:nth-child(9) {
   top: 14%;
-  left: 42%;
-  animation: float 27s infinite -9s;
+  left: 9%;
+  animation: float 24s infinite -7s;
 }
 #footer .particle:nth-child(10) {
-  top: 41%;
-  left: 72%;
-  animation: float 27s infinite -10s;
+  top: 13%;
+  left: 19%;
+  animation: float 24s infinite -8s;
 }
 #footer .particle:nth-child(11) {
-  top: 13%;
-  left: 64%;
-  animation: float 15s infinite -3s;
+  top: 25%;
+  left: 66%;
+  animation: float 27s infinite -7s;
 }
 #footer .particle:nth-child(12) {
-  top: 2%;
-  left: 33%;
-  animation: float 24s infinite -3s;
+  top: 56%;
+  left: 13%;
+  animation: float 23s infinite -7s;
 }
 #footer .particle:nth-child(13) {
-  top: 45%;
-  left: 8%;
-  animation: float 20s infinite -8s;
+  top: 3%;
+  left: 40%;
+  animation: float 16s infinite -10s;
 }
 #footer .particle:nth-child(14) {
-  top: 75%;
-  left: 6%;
-  animation: float 26s infinite -8s;
+  top: 72%;
+  left: 30%;
+  animation: float 28s infinite -10s;
 }
 #footer .particle:nth-child(15) {
-  top: 93%;
-  left: 56%;
-  animation: float 11s infinite -8s;
+  top: 54%;
+  left: 27%;
+  animation: float 16s infinite -2s;
 }
 #footer .particle:nth-child(16) {
-  top: 4%;
-  left: 65%;
-  animation: float 16s infinite -3s;
+  top: 21%;
+  left: 59%;
+  animation: float 25s infinite -8s;
 }
 #footer .particle:nth-child(17) {
-  top: 72%;
-  left: 16%;
-  animation: float 16s infinite -2s;
+  top: 7%;
+  left: 86%;
+  animation: float 28s infinite -7s;
 }
 #footer .particle:nth-child(18) {
   top: 81%;
-  left: 59%;
-  animation: float 20s infinite -8s;
+  left: 71%;
+  animation: float 14s infinite -2s;
 }
 #footer .particle:nth-child(19) {
-  top: 16%;
-  left: 52%;
-  animation: float 22s infinite -1s;
+  top: 3%;
+  left: 91%;
+  animation: float 26s infinite -8s;
 }
 #footer .particle:nth-child(20) {
-  top: 7%;
-  left: 17%;
-  animation: float 28s infinite -9s;
+  top: 58%;
+  left: 58%;
+  animation: float 20s infinite -3s;
 }/*# sourceMappingURL=style.css.map */

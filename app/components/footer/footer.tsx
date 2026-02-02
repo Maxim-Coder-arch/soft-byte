@@ -3,7 +3,6 @@ import { JSX } from "react";
 export default function Footer(): JSX.Element {
   return (
     <section id="footer">
-      {/* Decorative particles */}
       {Array.from({ length: 20 }).map((_, i) => (
         <div key={i} className="particle" />
       ))}
